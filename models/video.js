@@ -7,7 +7,7 @@ const videoSchema = Schema({
   time: { type: String, required: false },
   // video: { type: String, required: false },
 
-  video:{ type: Buffer, required: false },
+  video:{ type: String, required: false },
   likes: { type: Number, default: 0 },
 
 });
